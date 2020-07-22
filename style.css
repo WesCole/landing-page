@@ -50,3 +50,15 @@ hr {
 .btn-xl {
   padding: 1rem 2rem;
 }
+
+@media (max-width:375px){
+  .text-uppercase{
+    margin-top: 200px;
+    padding-top:200px;
+    text-shadow: none;
+    text-decoration: bold;
+  }
+  .btn-primary{
+    margin-bottom: 400px;
+  }
+}
