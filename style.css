@@ -57,22 +57,22 @@ img{
 }
 
 @media (max-width: 768px){
-   img{
-     margin-top:30px;
-     margin-bottom: 30px;
-   }
+   
    strong{
     font-size:2rem;
-    margin-top:30px;
-    margin-bottom: 30px;
+    margin-top:1000px;
+    margin-bottom: 50px;
   }
-  html{
+  body{
+    background:none;
+    border:5px;
+    border-color: black;
     background-color: rgb(24, 24, 24);
   }
 }
 
 @media (max-width: 768px){
   strong{
-    font-size:2rem;
+    font-size:1.5rem;
   }
 }
