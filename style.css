@@ -3,13 +3,15 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'roboto', sans-serif;
-  background-color: rgb(52, 52, 255); 
+  background:rgba(0, 0, 0, 0.603) url("dark-anime-girl-long-hair-dark-background-red-eyes-wallpaper-preview.jpg"); 
   background-size: cover;
+  background-blend-mode: overlay;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
+  text-shadow: 2px 3px 3px black;
 }
 
 hr {
@@ -19,43 +21,34 @@ hr {
   margin-top: 0px;
 }
 
-.text-uppercase{
-  margin-top: 160px;
-}
-
 img{
-  margin-top: 150px;
   width:100%;
-}
-
-.buffer {
-  height: 10rem;
-}
-
-section{
-  margin-top: 150px;
+  height:100%;
+  box-shadow: 5px 5px 10px black;
 }
 
 .btn {
   font-weight: 700;
-  border-radius: 300px;
+  border-radius: 5px;
   text-transform: uppercase;
   color: white;
+  box-shadow: 2px 3px 5px black;
+  margin-top:50px;
 }
 
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44;
+  background-color: #1b1c2c;
+  border-color: #000000;
   transition: .5s;
   margin-bottom: none;
 }
 
 .btn-primary:hover {
     color: black;
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
+  background-color: #020202;
+  border-color: white;
+  color: #ffffff;
   transition: .5s;
 }
 
@@ -63,33 +56,8 @@ section{
   padding: 1rem 2rem;
 }
 
-@media (max-width:1024px){
-  .text-uppercase{
-   font-size: 3rem;
-  }
-  .btn-primary{
-    margin-bottom: 100px;
-  }
-}
-
-@media (max-width:768px){
-  .text-uppercase{
-   font-size: 2rem;
-   margin-top:185px;
-  }
-  .btn-primary{
-    margin-bottom: 100px;
-  }
-}
-
-@media (max-width: 480px){
-  .text-uppercase{
-   font-size: 2rem;
-  }
-  img{
-    margin-top: 40px;
-  }
-  section{
-    margin-top: 50px;
+@media (max-width: 340px){
+  strong{
+    font-size:2rem;
   }
 }
